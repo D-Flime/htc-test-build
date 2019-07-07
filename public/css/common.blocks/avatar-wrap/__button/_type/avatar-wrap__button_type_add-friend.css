@@ -1,0 +1,7 @@
+.avatar-wrap__button_type_add-friend {
+    background: linear-gradient(0deg, #ff6600, #ff9900);
+}
+
+.avatar-wrap__button_type_add-friend:hover {
+    background: #ff6600;
+}

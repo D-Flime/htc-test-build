@@ -1,0 +1,7 @@
+.user-info-header__name {
+    padding-top: 9px;
+    font-size: 23px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

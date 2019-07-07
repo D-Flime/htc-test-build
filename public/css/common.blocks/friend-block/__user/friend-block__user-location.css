@@ -1,0 +1,7 @@
+.friend-block__user-location {
+    height: 25px;
+    font-size: 11px;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

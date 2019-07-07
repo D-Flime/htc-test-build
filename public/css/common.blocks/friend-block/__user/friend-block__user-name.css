@@ -1,0 +1,7 @@
+.friend-block__user-name {
+    margin-bottom: 6px;
+    font-size: 13px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}

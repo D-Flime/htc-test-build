@@ -1,0 +1,294 @@
+body {
+    margin: 0;
+    padding: 46px 0 0 42px;
+    font-family: Arial;
+    background-color: #e1e1e1;
+}
+
+.button {
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+.tabs__tab {
+    display: inline-block;
+    margin-right: 5px;
+    padding: 8px 18px 8px 18px;
+    border-radius: 5px 5px 0px 0px;
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.31);
+    background: linear-gradient(0deg, #336699, #0099cc);
+    font-size: 14px;
+    color: #ffffff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.38);
+    cursor: pointer;
+}
+
+.tabs__tab_selected {
+    background: #ffffff;
+    color: #000000;
+    text-shadow: none;
+}
+
+.main {
+    position: relative;
+    width: 487px;
+    min-height: 290px;
+    box-shadow: 0px 1px 3px rgba(0,0,0,0.31);
+    background: #ffffff;
+    z-index: 0;
+    overflow: hidden;
+}
+
+.main_friendlist {
+    height: 278px;
+}
+
+.avatar-wrap {
+    float: left;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.avatar-wrap__avatar {
+    width: 132px;
+    height: 169px;
+    margin-bottom: 6px;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 6px rgba(0, 0, 0, 0.32);
+}
+
+.avatar-wrap__avatar img {
+    position: relative;
+    width: 132px;
+    height: 169px;
+    z-index: -1;
+}
+
+.avatar-wrap__button {
+    width: 132px;
+    height: 30px;
+    margin-bottom: 6px;
+    border: 0;
+    border-radius: 3px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.38);
+    font-size: 12px;
+    color: #ffffff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.43);
+}
+
+.avatar-wrap__button_type_add-friend {
+    background: linear-gradient(0deg, #ff6600, #ff9900);
+}
+
+.avatar-wrap__button_type_add-friend:hover {
+    background: #ff6600;
+}
+
+.avatar-wrap__button_type_add-interests {
+    background: linear-gradient(0deg, #336699, #0099cc);
+}
+
+.avatar-wrap__button_type_add-interests:hover {
+    background: #336699;
+}
+
+.user-info-wrap {
+    float: right;
+    margin-right: 29px;
+    margin-top: 15px;
+    width: 290px;
+}
+
+.user-info-header {
+    left: 50px;
+    margin-bottom: 25px;
+}
+
+.changable-info {
+    cursor: pointer;
+}
+
+.user-info-header__name {
+    padding-top: 9px;
+    font-size: 23px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.user-info-header__input-name {
+    height: 30px;
+    font-size: 23px;
+}
+
+.user-info-header__location {
+    height: 18px;
+    font-size: 11px;
+    color: #666666;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.user-info-header__input-location {
+    height: 12px;
+    position: relative;
+}
+
+.user-info-content {
+    margin-bottom: 25px;
+}
+
+.user-info-content__data-row {
+    position: relative;
+    margin-bottom: 12px;
+    overflow: hidden;
+}
+
+.user-info-content__data-row-key {
+    float: left;
+    width: 161px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.user-info-content__data-row-value {
+    float: right;
+    width: 129px;
+    font-size: 12px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.user-info-content__input-data-row-value {
+    float: right;
+    width: 125px;
+    height: 8px;
+    font-size: 12px;
+}
+
+.user-interests-header {
+    margin-bottom: 12px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.user-interests-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.user-interests-container__element {
+    margin-right: 3px;
+    margin-bottom: 3px;
+    padding: 8px 10px 8px 10px;
+    border: 1px solid #cccccc;
+    border-radius: 2px;
+    line-height: 12px;
+    font-size: 12px;
+    color: #006699;
+    word-wrap: break-word;
+	overflow-wrap: break-word;
+    cursor: pointer;
+}
+
+.user-interests-container__element:hover {
+    color: #000000;
+}
+
+.friendlist {
+    max-width: 472px;
+    max-height: 248px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.friend-block {
+    display: inline-block;
+    width: 205px;
+    height: 62px;
+    margin-right: 10px;
+    margin-bottom: 25px;
+}
+
+.friend-block__user-info {
+    position: absolute;
+    display: inline-block;
+    width: 127px;
+}
+
+.friend-block__avatar-block {
+    float: left;
+    width: 62px;
+    height: 62px;
+    margin-right: 16px;
+}
+
+.friend-block__avatar-block img {
+    width: 62px;
+    height: 62px;
+    border-radius: 2px;
+}
+
+.friend-block__user-name {
+    margin-bottom: 6px;
+    font-size: 13px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.friend-block__user-location {
+    height: 25px;
+    font-size: 11px;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.friend-block__user-online-status {
+    bottom: 0;
+    font-size: 10px;
+    font-style: italic;
+    color: #339933;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.interests-add-block {
+    position: absolute;
+    top: 225px;
+    left: 15px;
+    width: 135px;
+    height: 50px;
+    padding: 5px;
+    border: 0.5px solid rgb(107, 107, 107);
+    border-radius: 3px;
+    background: #ffffff;
+}
+
+.interests-add-block__input {
+    width: 130px;
+    margin-bottom: 5px;
+}
+
+.interests-add-block__button {
+    padding: 4px;
+    border: 0;
+    border-radius: 3px;
+    background: linear-gradient(0deg, #336699, #0099cc);
+    color: #ffffff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.43);
+}
+
+.interests-add-block__button:hover {
+    background: #336699;
+}

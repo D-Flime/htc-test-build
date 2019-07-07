@@ -1,0 +1,14 @@
+.avatar-wrap__avatar {
+    width: 132px;
+    height: 169px;
+    margin-bottom: 6px;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 6px rgba(0, 0, 0, 0.32);
+}
+
+.avatar-wrap__avatar img {
+    position: relative;
+    width: 132px;
+    height: 169px;
+    z-index: -1;
+}

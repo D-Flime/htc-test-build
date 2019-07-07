@@ -1,0 +1,12 @@
+.friend-block__avatar-block {
+    float: left;
+    width: 62px;
+    height: 62px;
+    margin-right: 16px;
+}
+
+.friend-block__avatar-block img {
+    width: 62px;
+    height: 62px;
+    border-radius: 2px;
+}

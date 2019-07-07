@@ -1,0 +1,7 @@
+.avatar-wrap__button_type_add-interests {
+    background: linear-gradient(0deg, #336699, #0099cc);
+}
+
+.avatar-wrap__button_type_add-interests:hover {
+    background: #336699;
+}

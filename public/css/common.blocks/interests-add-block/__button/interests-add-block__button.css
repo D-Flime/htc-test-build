@@ -1,0 +1,12 @@
+.interests-add-block__button {
+    padding: 4px;
+    border: 0;
+    border-radius: 3px;
+    background: linear-gradient(0deg, #336699, #0099cc);
+    color: #ffffff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.43);
+}
+
+.interests-add-block__button:hover {
+    background: #336699;
+}

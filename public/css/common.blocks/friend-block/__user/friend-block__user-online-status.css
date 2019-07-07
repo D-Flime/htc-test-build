@@ -1,0 +1,8 @@
+.friend-block__user-online-status {
+    bottom: 0;
+    font-size: 10px;
+    font-style: italic;
+    color: #339933;
+    white-space: nowrap;
+    overflow: hidden;
+}
